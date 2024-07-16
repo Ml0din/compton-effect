@@ -3,7 +3,7 @@ License Holder:
 Mladin Alexandru-Mihai
 
 Software:
-Efectul Compton
+Compton Effect
 
 2. Definitions
 2.1. License Holder

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="632.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="title_label" alignment="CENTER" layoutX="4.0" layoutY="23.0" prefHeight="48.0" prefWidth="624.0" styleClass="title" text="title" textAlignment="JUSTIFY">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="information_label" alignment="CENTER" contentDisplay="TEXT_ONLY" layoutX="19.0" layoutY="80.0" prefHeight="112.0" prefWidth="594.0" styleClass="subtitle" text="information" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="close_button" layoutX="271.0" layoutY="200.0" styleClass="action-button" text="Inchide" />
+   </children>
+</AnchorPane>
